@@ -1,0 +1,34 @@
+// basic logic gates
+module logicgates_gatelevel(o1,o2,o3,o4,o5,o6,o7,i1,i2);
+input i1,i2;
+output o1,o2,o3,o4,o5,o6,o7;
+and g1(o1,i1,i2);
+or g2(o2,i1,i2);
+nand g3(o3,i1,i2);
+nor g4(o4,i1,i2);
+xor g5(o5,i1,i2);
+xnor g6(o6,i1,i2);
+not g7(o7,i1);
+endmodule
+// testbech
+module test_logicgates_gatelevel;
+reg i1,i2;
+wire o1,o2,o3,o4,o5,o6,o7;
+logicgates_gatelevel g(o1,o2,o3,o4,o5,o6,o7,i1,i2);
+initial
+begin
+i1=0;
+i2=0;
+#10 i1=0;
+#10 i2=1;
+#10 i1=1;
+#10 i2=0;
+#10 i2=1;
+end
+initial
+$monitor($time,"i1=%d,i2=%d,o1=%d,o2=%d,o3=%d,o4=%d,o5=%d,o6=%d,o7=%d",o1,o2,o3,o4
+,o5,o6,o7,i1,i2);
+initial
+#100 $stop;
+  
+endmodule
