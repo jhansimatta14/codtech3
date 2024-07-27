@@ -21,6 +21,7 @@ project:Digital Logic Design Wiyh Verilog
 Objective:Verilog module defines a circuit with various basic logic gates and outputs the results of these gates based on two inputs (i1 and i2). 
 
 **key activites**:
+
 Inputs and Outputs:
 
 input i1, i2; : Defines two input signals.
@@ -35,6 +36,7 @@ nor g4(o4, i1, i2); : Performs a NOR operation. The result (o4) is the negation 
 xor g5(o5, i1, i2); : Performs an XOR operation. The result (o5) is i1 XOR i2.
 xnor g6(o6, i1, i2); : Performs an XNOR operation. The result (o6) is the negation of i1 XOR i2.
 not g7(o7, i1); : Performs a NOT operation. The result (o7) is the negation of i1.
+
 **Technologies Used**
 verilog:The primary programming language for vlsi
 ISE Simulator:used for simulation and to obtainthe waveform
