@@ -13,6 +13,7 @@ Mentor:Muzammil Ahmed.
 **Overview of the project**
 
 project:Digital Logic Design Wiyh Verilog
+
 ![image](https://github.com/user-attachments/assets/cd3909a3-e304-4be3-80e6-cd117c5fd44a)
 ![image](https://github.com/user-attachments/assets/8d22dd70-6334-4425-a053-a4ad6ada772c)
 ![image](https://github.com/user-attachments/assets/4b826a7d-d347-4c60-93c0-f4f8dadbcb50)
