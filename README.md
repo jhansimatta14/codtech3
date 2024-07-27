@@ -18,6 +18,7 @@ project:Digital Logic Design Wiyh Verilog
 ![image](https://github.com/user-attachments/assets/8d22dd70-6334-4425-a053-a4ad6ada772c)
 ![image](https://github.com/user-attachments/assets/4b826a7d-d347-4c60-93c0-f4f8dadbcb50)
 ![image](https://github.com/user-attachments/assets/da1d0339-581b-45ca-a9dd-8bcda3d6f430)
+
 Objective:Verilog module defines a circuit with various basic logic gates and outputs the results of these gates based on two inputs (i1 and i2). 
 
 **key activites**:
@@ -39,5 +40,7 @@ not g7(o7, i1); : Performs a NOT operation. The result (o7) is the negation of i
 
 **Technologies Used**
 verilog:The primary programming language for vlsi
+
 ISE Simulator:used for simulation and to obtainthe waveform
+
 xillinx Synthesis tool: to run the code.
