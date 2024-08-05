@@ -28,7 +28,7 @@ Inputs and Outputs:
 input i1, i2; : Defines two input signals.
 output o1, o2, o3, o4, o5, o6, o7; : Defines seven output signals.
 
-Logic Gates:
+**Logic Gates:**
 
 and g1(o1, i1, i2); : Performs an AND operation. The result (o1) is i1 AND i2.
 
@@ -45,6 +45,7 @@ xnor g6(o6, i1, i2); : Performs an XNOR operation. The result (o6) is the negati
 not g7(o7, i1); : Performs a NOT operation. The result (o7) is the negation of i1.
 
 **Technologies Used**
+
 verilog:The primary programming language for vlsi
 
 ISE Simulator:used for simulation and to obtainthe waveform
