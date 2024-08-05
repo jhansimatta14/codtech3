@@ -31,11 +31,17 @@ output o1, o2, o3, o4, o5, o6, o7; : Defines seven output signals.
 Logic Gates:
 
 and g1(o1, i1, i2); : Performs an AND operation. The result (o1) is i1 AND i2.
+
 or g2(o2, i1, i2); : Performs an OR operation. The result (o2) is i1 OR i2.
+
 nand g3(o3, i1, i2); : Performs a NAND operation. The result (o3) is the negation of i1 AND i2.
+
 nor g4(o4, i1, i2); : Performs a NOR operation. The result (o4) is the negation of i1 OR i2.
+
 xor g5(o5, i1, i2); : Performs an XOR operation. The result (o5) is i1 XOR i2.
+
 xnor g6(o6, i1, i2); : Performs an XNOR operation. The result (o6) is the negation of i1 XOR i2.
+
 not g7(o7, i1); : Performs a NOT operation. The result (o7) is the negation of i1.
 
 **Technologies Used**
